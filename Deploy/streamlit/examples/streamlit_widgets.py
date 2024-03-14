@@ -21,4 +21,6 @@ var_intIdade =  st.number_input('Qual a sua idade?', value=18)
 st.write(f'Você tem {var_intIdade} anos')
 
 # Widgets página lateral
-super_poder =  
+super_poder =  ['Jedi', 'Bilionario', 'Super MAN']
+var_superPoder = st.sidebar.selectbox('Qual o seu super poder? ',options=super_poder)
+st.sidebar.write(f'O seu super poder é {var_superPoder}')
