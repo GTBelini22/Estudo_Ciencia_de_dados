@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.sidebar.header('Descrição do porjeto')
 
-st.write('# Bem vindo ao Predição de seguro 🩺')
+st.write('# Bem vindo ao Predição de seguro de saúde🩺')
 st.write('\n\n')
 
 st.image('img\health_insurance_img.jpg')
