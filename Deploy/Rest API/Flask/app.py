@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "Welcome to the Medical Insurance Prediction API"
+    return "Bem vindo ao modelo de predição de seguro de saúde"
 
 @app.route('/predict', methods=['POST'])
 def index():
