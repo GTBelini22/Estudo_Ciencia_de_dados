@@ -1,6 +1,7 @@
 import pickle
 import uvicorn
 import pandas as pd
+from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -44,7 +45,17 @@ def predict(data: Customer):
     df_input = pd.DataFrame([data.dict()])
     output = model.predict(df_input)[0]
     return output
-        
+
+# Lista de clientes - previsão para varios clientes
+class CustomerList(BaseModel):
+    data: List[Customer]
+    
+@app.post('/predict_with_json_list')
+def predict(data: CustomerList):
+    df_input = pd.DataFrame(data.dict()['data'])
+    output = model.predict(df_input).tolist()
+    return output
+
 
 if __name__ == '__main__':
     uvicorn.run(app)
