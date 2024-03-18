@@ -1,0 +1,3 @@
+service: fast-api
+runtime: python38
+entrypoint: gunicorn -k unicorn.workers.UnicornWorker main:app
