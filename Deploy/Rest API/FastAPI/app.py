@@ -2,6 +2,7 @@ import pickle
 import uvicorn
 import pandas as pd
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 
 # Iniciando o API
@@ -23,6 +24,27 @@ def predict(age:int, bmi:float, children:int, smoker:str = 'no'):
     output = model.predict(df_input)[0]
     return output
 
+class Customer(BaseModel):
+    age: int
+    bmi: float
+    children: int
+    smoker: str
+    class Config:
+        schema_extra = {
+            'example': {
+                'age': 20,
+                'bmi': 30.4,
+                'children': 1,
+                'smoker': 'no'
+            }
+        }
+
+@app.post('/predict_with_json')
+def predict(data: Customer):
+    df_input = pd.DataFrame([data.dict()])
+    output = model.predict(df_input)[0]
+    return output
+        
 
 if __name__ == '__main__':
     uvicorn.run(app)
