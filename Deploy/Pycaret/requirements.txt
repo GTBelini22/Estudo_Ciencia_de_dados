@@ -1,0 +1,4 @@
+pycaret==2.3.10
+uvicorn==0.20.0
+fastapi==0.89.1
+ipykernel==6.21.1
