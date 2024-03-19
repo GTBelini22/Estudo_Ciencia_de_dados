@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/Cursos/DNC/Projetos/Estudo%20Ciencia%20de%20dados/Deploy/MLFLOW/notebooks/mlruns/209403677545209004/dd818dc503c64be498ad626b6d572d02/artifacts
+end_time: 1710847054332
+entry_point_name: ''
+experiment_id: '209403677545209004'
+lifecycle_stage: active
+run_id: dd818dc503c64be498ad626b6d572d02
+run_name: polite-dog-790
+run_uuid: dd818dc503c64be498ad626b6d572d02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710847054198
+status: 4
+tags: []
+user_id: gusta

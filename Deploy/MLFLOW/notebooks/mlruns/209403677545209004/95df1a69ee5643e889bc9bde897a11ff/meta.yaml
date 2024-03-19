@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/Cursos/DNC/Projetos/Estudo%20Ciencia%20de%20dados/Deploy/MLFLOW/notebooks/mlruns/209403677545209004/95df1a69ee5643e889bc9bde897a11ff/artifacts
+end_time: 1710847261355
+entry_point_name: ''
+experiment_id: '209403677545209004'
+lifecycle_stage: active
+run_id: 95df1a69ee5643e889bc9bde897a11ff
+run_name: rebellious-smelt-393
+run_uuid: 95df1a69ee5643e889bc9bde897a11ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710847226121
+status: 3
+tags: []
+user_id: gusta

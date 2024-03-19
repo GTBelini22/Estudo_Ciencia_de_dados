@@ -1,0 +1,26 @@
+artifact_path: model_pipeline
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.1.post1
+mlflow_version: 2.11.1
+model_size_bytes: 7706
+model_uuid: c9f1e4fdd44b4d70a62d0972e32fe562
+run_id: 659bf5b1d439487e9bd6bda14261b13d
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "double",
+    "name": "bmi", "required": true}, {"type": "long", "name": "children", "required":
+    true}, {"type": "string", "name": "smoker", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-03-19 11:21:20.281752'

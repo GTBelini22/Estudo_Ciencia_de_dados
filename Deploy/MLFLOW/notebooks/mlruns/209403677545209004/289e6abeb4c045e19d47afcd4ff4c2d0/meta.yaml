@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/Cursos/DNC/Projetos/Estudo%20Ciencia%20de%20dados/Deploy/MLFLOW/notebooks/mlruns/209403677545209004/289e6abeb4c045e19d47afcd4ff4c2d0/artifacts
+end_time: 1710847320880
+entry_point_name: ''
+experiment_id: '209403677545209004'
+lifecycle_stage: active
+run_id: 289e6abeb4c045e19d47afcd4ff4c2d0
+run_name: crawling-flea-950
+run_uuid: 289e6abeb4c045e19d47afcd4ff4c2d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710847304676
+status: 3
+tags: []
+user_id: gusta

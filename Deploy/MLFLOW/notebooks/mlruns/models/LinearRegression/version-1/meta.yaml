@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710847274918
+current_stage: None
+description: null
+last_updated_timestamp: 1710847274918
+name: LinearRegression
+run_id: b113b89ec9a940e38d694c16dd12af36
+run_link: null
+source: file:///c:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/Cursos/DNC/Projetos/Estudo%20Ciencia%20de%20dados/Deploy/MLFLOW/notebooks/mlruns/209403677545209004/b113b89ec9a940e38d694c16dd12af36/artifacts/model_pipeline
+status: READY
+status_message: null
+storage_location: file:///c:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/Cursos/DNC/Projetos/Estudo%20Ciencia%20de%20dados/Deploy/MLFLOW/notebooks/mlruns/209403677545209004/b113b89ec9a940e38d694c16dd12af36/artifacts/model_pipeline
+user_id: null
+version: 1
